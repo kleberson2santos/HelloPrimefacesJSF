@@ -5,12 +5,12 @@
    http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
 
     <welcome-file-list>
-        <welcome-file>Home.xhtml</welcome-file>
+        <welcome-file>Layout.xhtml</welcome-file>
     </welcome-file-list>
     
     <servlet>
         <servlet-name>Faces Servlet</servlet-name>
-        <servlet-class>jakarta.faces.webapp.FacesServlet</servlet-class>
+        <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
