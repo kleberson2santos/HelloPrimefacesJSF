@@ -10,16 +10,21 @@
         </f:facet>
         <title>K2sWorks</title>
         <h:outputStylesheet library="k2sworks" name="styles/layout.css"/>
+        <h:outputStylesheet library="k2sworks" name="styles/components.css"/>
+
+        <h:outputScript target="body" library="primefaces" name="jquery/jquery.js"/>
+        <h:outputScript target="body" library="k2sworks" name="javascripts/app.js"/>
     </h:head>
     <h:body>
        <header class="kw-topbar">
             <h:graphicImage library="k2sworks" name="images/logo.png"/>
+            <a href="#" class="kw-toggle js-toggle"><i class="pi  pi-bars"></i></a>
        </header>
 
-        <aside class="kw-sidebar">
+        <aside class="kw-sidebar js-sidebar">
         </aside>
 
-        <section class="kw-content">
+        <section class="kw-content js-content">
             <h1>Conteúdo</h1>
         </section>
     </h:body>

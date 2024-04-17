@@ -33,11 +33,19 @@ body {
     border-right: 1px solid #eaeaea;
 }
 
+.kw-sidebar.is-toggled {
+    margin-left: 0;
+}
+
 @media (min-width: 960px) {
     .kw-sidebar {
         overflow-y: auto;
 
         margin-left: 0;
+    }
+
+    .kw-sidebar.is-toggled {
+        margin-left: -211px;
     }
 }
 
@@ -50,5 +58,9 @@ body {
 @media (min-width: 960px) {
     .kw-content {
         margin-left: 210px;
+    }
+
+    .kw-content.is-toggled {
+        margin-left: 0;
     }
 }
