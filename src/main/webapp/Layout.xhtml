@@ -9,6 +9,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1" />
         </f:facet>
         <title>K2sWorks</title>
+        <h:outputStylesheet library="k2sworks" name="styles/custom.css"/>
         <h:outputStylesheet library="k2sworks" name="styles/layout.css"/>
         <h:outputStylesheet library="k2sworks" name="styles/components.css"/>
 
@@ -22,6 +23,22 @@
        </header>
 
         <aside class="kw-sidebar js-sidebar">
+            <nav class="kw-menu">
+                <ul>
+                    <li>
+                        <h:link><i class="pi  pi-fw  pi-home"></i>Dashboard</h:link>
+                    </li>
+                    <li class="is-selected">
+                        <h:link><i class="pi  pi-fw  pi-user"></i>Clientes</h:link>
+                    </li>
+                    <li>
+                        <h:link><i class="pi  pi-fw  pi-file"></i>Relatórios</h:link>
+                    </li>
+                    <li>
+                        <h:link><i class="pi  pi-fw  pi-cog"></i>Configurações</h:link>
+                    </li>
+                </ul>
+            </nav>
         </aside>
 
         <section class="kw-content js-content">

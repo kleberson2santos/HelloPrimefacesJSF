@@ -6,3 +6,41 @@
 
     color: #fff;
 }
+
+/* MENU */
+.kw-menu {
+    font-size: 1.1em;
+}
+
+.kw-menu > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.kw-menu > ul a {
+    display: block;
+    padding: 10px 15px;
+
+    text-decoration: none;
+    font-weight: 500;
+    color: #373737;
+}
+
+.kw-menu > ul i {
+    margin-right: 6px;
+}
+
+.kw-menu > ul a:hover, .kw-menu > ul a:focus {
+    background-color: #dfdfdf;
+}
+
+.kw-menu > ul .is-selected {
+    border-left: 3px solid #1e94d2;
+    background-color: #f3f3f3;
+}
+
+.kw-menu > ul .is-selected a {
+    margin-left: -3px;
+    color: #1e94d2;
+}
