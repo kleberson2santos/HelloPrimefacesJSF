@@ -51,6 +51,7 @@ body {
 
 /* CONTENT */
 .kw-content {
+    padding: 0 15px;
     margin-top: 50px;
     transition: margin-left 0.5s;
 }
